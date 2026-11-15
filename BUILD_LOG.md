@@ -7,8 +7,8 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
 | Batch 0 | Repository initialization (`README.md`, `.gitignore`, `.env.example`, `BUILD_LOG.md`) | `2f4abd7` | 2026-11-15 | Complete |
 | Batch 1 | Start-here section (`00-start-here/`, `CONTRIBUTING.md`, `LICENSE`) | `c4a5030` | 2026-11-15 | Complete |
 | Batch 2 | Roadmap and timeline (`01-roadmap/`) | `59c80da` | 2026-11-15 | Complete |
-| Batch 3 | Tools and setup guides (`02-tools/`) | Pending | 2026-11-15 | In Progress |
-| Batch 4 | Syllabus weeks 1–3 (`03-syllabus/week-01` to `week-03`) | Pending | 2026-11-15 | Planned |
+| Batch 3 | Tools and setup guides (`02-tools/`) | `e8380a7` | 2026-11-15 | Complete |
+| Batch 4 | Syllabus weeks 1–3 (`03-syllabus/week-01` to `week-03`) | Pending | 2026-11-15 | In Progress |
 | Batch 5 | Exams, rubrics, and project 1 starter (`05-exams/`, `06-projects/01-log-analyzer-cli/`, `instructor-keys/`) | Pending | 2026-11-15 | Planned |
 | Batch 6 | Syllabus weeks 4–5 and project 2 starter (`06-projects/02-static-api-page/`) | Pending | 2026-11-15 | Planned |
 | Batch 7 | Syllabus weeks 6–8, project 3 starter, and phase 2 exam | Pending | 2026-11-15 | Planned |
@@ -69,6 +69,7 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
 
 ### Batch 3: Tools and Setup Guides
 - **Date:** 2026-11-15
+- **Commit:** `e8380a7`
 - **Files created:**
   - `02-tools/setup-windows.md`
   - `02-tools/setup-macos.md`
@@ -82,3 +83,17 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
   - Authored setup guides for Windows (WSL2 & native), macOS (Homebrew), and Linux (Debian/Ubuntu/Fedora).
   - Covered installation and configuration of `uv`, Python 3.12, Node.js LTS, Git, Docker, and VS Code.
   - Documented commands and mental models for Git DAGs, Unix standard streams, and container lifecycles.
+
+### Batch 4: Syllabus Weeks 1–3
+- **Date:** 2026-11-15
+- **Files created:**
+  - `03-syllabus/week-01/` (README, lessons, concepts, exercises, hints, quiz, gate, retro)
+  - `03-syllabus/week-02/` (README, lessons, concepts, exercises, hints, quiz, gate, retro)
+  - `03-syllabus/week-03/` (README, lessons, concepts, exercises, hints, quiz, gate, retro)
+  - `instructor-keys/README.md`
+  - `instructor-keys/quiz-01.md`, `quiz-02.md`, `quiz-03.md` (Gitignored)
+- **Actions:**
+  - Populated all 8 standard pedagogical files for Weeks 1 through 3.
+  - Authored Silver (expected) and Gold (stretch) exercises with calibrated 30-minute 3-level hint progressions.
+  - Included a dedicated "debug this" exercise with broken code in each week.
+  - Formatted Gates and conceptual Quizzes with external answer keys safely separated.

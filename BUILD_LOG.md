@@ -8,8 +8,8 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
 | Batch 1 | Start-here section (`00-start-here/`, `CONTRIBUTING.md`, `LICENSE`) | `c4a5030` | 2026-11-15 | Complete |
 | Batch 2 | Roadmap and timeline (`01-roadmap/`) | `59c80da` | 2026-11-15 | Complete |
 | Batch 3 | Tools and setup guides (`02-tools/`) | `e8380a7` | 2026-11-15 | Complete |
-| Batch 4 | Syllabus weeks 1–3 (`03-syllabus/week-01` to `week-03`) | Pending | 2026-11-15 | In Progress |
-| Batch 5 | Exams, rubrics, and project 1 starter (`05-exams/`, `06-projects/01-log-analyzer-cli/`, `instructor-keys/`) | Pending | 2026-11-15 | Planned |
+| Batch 4 | Syllabus weeks 1–3 (`03-syllabus/week-01` to `week-03`) | `b723111` | 2026-11-15 | Complete |
+| Batch 5 | Exams, rubrics, and project 1 starter (`05-exams/`, `06-projects/01-log-analyzer-cli/`, `instructor-keys/`) | Pending | 2026-11-15 | In Progress |
 | Batch 6 | Syllabus weeks 4–5 and project 2 starter (`06-projects/02-static-api-page/`) | Pending | 2026-11-15 | Planned |
 | Batch 7 | Syllabus weeks 6–8, project 3 starter, and phase 2 exam | Pending | 2026-11-15 | Planned |
 | Batch 8 | Syllabus weeks 9–11, project 4 starter, and phase 3 exam | Pending | 2026-11-15 | Planned |
@@ -86,6 +86,7 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
 
 ### Batch 4: Syllabus Weeks 1–3
 - **Date:** 2026-11-15
+- **Commit:** `b723111`
 - **Files created:**
   - `03-syllabus/week-01/` (README, lessons, concepts, exercises, hints, quiz, gate, retro)
   - `03-syllabus/week-02/` (README, lessons, concepts, exercises, hints, quiz, gate, retro)
@@ -97,3 +98,20 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
   - Authored Silver (expected) and Gold (stretch) exercises with calibrated 30-minute 3-level hint progressions.
   - Included a dedicated "debug this" exercise with broken code in each week.
   - Formatted Gates and conceptual Quizzes with external answer keys safely separated.
+
+### Batch 5: Exams, Rubrics, and First Project
+- **Date:** 2026-11-15
+- **Files created:**
+  - `05-exams/phase-1-exam.md`
+  - `05-exams/rubrics/phase-1-rubric.md`
+  - `06-projects/01-log-analyzer-cli/README.md`
+  - `06-projects/01-log-analyzer-cli/pyproject.toml`
+  - `06-projects/01-log-analyzer-cli/data/sample.log`
+  - `06-projects/01-log-analyzer-cli/src/log_analyzer/` (models, parser, analyzer, cli skeletons)
+  - `06-projects/01-log-analyzer-cli/tests/` (test_parser, test_analyzer, test_cli with failing tests)
+  - `instructor-keys/phase-1-exam-key.md` (Gitignored)
+  - `instructor-keys/project-01-solution.md` (Gitignored)
+- **Actions:**
+  - Created Phase 1 3-part comprehensive exam (Part A conceptual, Part B practical, Part C defense).
+  - Outlined grading rubric headings in `05-exams/rubrics/phase-1-rubric.md` with complete scoring guide in `instructor-keys/`.
+  - Built Project 1 starter skeleton with failing pytest test suite for the learner to solve.

@@ -10,8 +10,8 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
 | Batch 3 | Tools and setup guides (`02-tools/`) | `e8380a7` | 2026-11-15 | Complete |
 | Batch 4 | Syllabus weeks 1–3 (`03-syllabus/week-01` to `week-03`) | `b723111` | 2026-11-15 | Complete |
 | Batch 5 | Exams, rubrics, and project 1 starter (`05-exams/`, `06-projects/01-log-analyzer-cli/`, `instructor-keys/`) | `07ad514` | 2026-11-15 | Complete |
-| Batch 6 | Syllabus weeks 4–5 and project 2 starter (`06-projects/02-static-api-page/`) | Pending | 2026-11-15 | In Progress |
-| Batch 7 | Syllabus weeks 6–8, project 3 starter, and phase 2 exam | Pending | 2026-11-15 | Planned |
+| Batch 6 | Syllabus weeks 4–5 and project 2 starter (`06-projects/02-static-api-page/`) | `42abf1e` | 2026-11-15 | Complete |
+| Batch 7 | Syllabus weeks 6–8, project 3 starter, and phase 2 exam | Pending | 2026-11-15 | Complete |
 | Batch 8 | Syllabus weeks 9–11, project 4 starter, and phase 3 exam | Pending | 2026-11-15 | Planned |
 | Batch 9 | Syllabus weeks 12–15, CI/CD starter, Docker guide, and phase 4 exam | Pending | 2026-11-15 | Planned |
 | Batch 10 | Syllabus weeks 16–17, system design practice, and practice katas (`09-tests-and-practice/`) | Pending | 2026-11-15 | Planned |
@@ -119,6 +119,7 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
 
 ### Batch 6: Weeks 4–5 and Project 2 Starter
 - **Date:** 2026-11-15
+- **Commit:** `42abf1e`
 - **Files created:**
   - `03-syllabus/week-04/` (README, lessons, concepts, exercises, hints, quiz, gate, retro)
   - `03-syllabus/week-05/` (README, lessons, concepts, exercises, hints, quiz, gate, retro)
@@ -128,3 +129,20 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
 - **Actions:**
   - Authored full Week 4 (Web Protocols, CORS, DOM, CSS Grid/Flexbox) and Week 5 (TypeScript, React, hooks) syllabi.
   - Built Project 2 GitHub Organization Explorer starter skeleton with strict TypeScript, components, and Vitest/React Testing Library test suite.
+
+### Batch 7: Weeks 6–8, Project 3 Starter, and Phase 2 Exam
+- **Date:** 2026-11-15
+- **Files created:**
+  - `03-syllabus/week-06/` (README, lessons, concepts, exercises, hints, quiz, gate, retro)
+  - `03-syllabus/week-07/` (README, lessons, concepts, exercises, hints, quiz, gate, retro)
+  - `03-syllabus/week-08/` (README, lessons, concepts, exercises, hints, quiz, gate, retro)
+  - `05-exams/phase-2-exam.md`
+  - `05-exams/rubrics/phase-2-rubric.md`
+  - `06-projects/03-task-api/` (FastAPI, SQLAlchemy 2.0 async, Alembic, Pydantic v2, Pytest async test suite)
+  - `instructor-keys/quiz-06.md`, `quiz-07.md`, `quiz-08.md` (Gitignored)
+  - `instructor-keys/phase-2-exam-key.md` (Gitignored)
+  - `instructor-keys/project-03-solution.md` (Gitignored)
+- **Actions:**
+  - Authored comprehensive syllabi for Week 6 (Relational Modeling, Indexing, ACID), Week 7 (FastAPI, asyncio, Pydantic v2, DI), and Week 8 (SQLAlchemy 2.0 async, Alembic migrations, JWT Auth).
+  - Designed Phase 2 3-part comprehensive exam covering web architecture, relational systems, transaction locking, and Socratic technical defense.
+  - Built Project 3 Task API starter skeleton with models, schemas, routers, Alembic async migration runner, and full async pytest suite enforcing tenant isolation and multi-tenant security.

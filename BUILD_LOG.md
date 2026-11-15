@@ -5,8 +5,8 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
 | Batch | Description | Commit Hash | Date | Status |
 |---|---|---|---|---|
 | Batch 0 | Repository initialization (`README.md`, `.gitignore`, `.env.example`, `BUILD_LOG.md`) | `2f4abd7` | 2026-11-15 | Complete |
-| Batch 1 | Start-here section (`00-start-here/`, `CONTRIBUTING.md`, `LICENSE`) | Pending | 2026-11-15 | In Progress |
-| Batch 2 | Roadmap and timeline (`01-roadmap/`) | Pending | 2026-11-15 | Planned |
+| Batch 1 | Start-here section (`00-start-here/`, `CONTRIBUTING.md`, `LICENSE`) | `c4a5030` | 2026-11-15 | Complete |
+| Batch 2 | Roadmap and timeline (`01-roadmap/`) | Pending | 2026-11-15 | In Progress |
 | Batch 3 | Tools and setup guides (`02-tools/`) | Pending | 2026-11-15 | Planned |
 | Batch 4 | Syllabus weeks 1–3 (`03-syllabus/week-01` to `week-03`) | Pending | 2026-11-15 | Planned |
 | Batch 5 | Exams, rubrics, and project 1 starter (`05-exams/`, `06-projects/01-log-analyzer-cli/`, `instructor-keys/`) | Pending | 2026-11-15 | Planned |
@@ -38,6 +38,7 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
 
 ### Batch 1: Start-Here Section
 - **Date:** 2026-11-15
+- **Commit:** `c4a5030`
 - **Files created:**
   - `00-start-here/plan-at-a-glance.md`
   - `00-start-here/how-to-study.md`
@@ -53,3 +54,14 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
   - Authored ADR-001 explaining rationale for Python/FastAPI/Postgres/React stack.
   - Defined learning partner roles, meeting agendas, and evaluation criteria.
   - Established initial living engineering glossary.
+
+### Batch 2: Roadmap and Timeline
+- **Date:** 2026-11-15
+- **Files created:**
+  - `01-roadmap/phases.md`
+  - `01-roadmap/milestones.md`
+  - `01-roadmap/timeline.md`
+- **Actions:**
+  - Outlined the 6 engineering phases from fundamentals through capstone.
+  - Established go/no-go milestone checkpoints at weeks 3, 8, 11, 15, and 20.
+  - Created customizable 20-week timeline initialized with `YYYY-MM-DD` start date placeholder.

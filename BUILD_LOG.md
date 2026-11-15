@@ -9,8 +9,8 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
 | Batch 2 | Roadmap and timeline (`01-roadmap/`) | `59c80da` | 2026-11-15 | Complete |
 | Batch 3 | Tools and setup guides (`02-tools/`) | `e8380a7` | 2026-11-15 | Complete |
 | Batch 4 | Syllabus weeks 1–3 (`03-syllabus/week-01` to `week-03`) | `b723111` | 2026-11-15 | Complete |
-| Batch 5 | Exams, rubrics, and project 1 starter (`05-exams/`, `06-projects/01-log-analyzer-cli/`, `instructor-keys/`) | Pending | 2026-11-15 | In Progress |
-| Batch 6 | Syllabus weeks 4–5 and project 2 starter (`06-projects/02-static-api-page/`) | Pending | 2026-11-15 | Planned |
+| Batch 5 | Exams, rubrics, and project 1 starter (`05-exams/`, `06-projects/01-log-analyzer-cli/`, `instructor-keys/`) | `07ad514` | 2026-11-15 | Complete |
+| Batch 6 | Syllabus weeks 4–5 and project 2 starter (`06-projects/02-static-api-page/`) | Pending | 2026-11-15 | In Progress |
 | Batch 7 | Syllabus weeks 6–8, project 3 starter, and phase 2 exam | Pending | 2026-11-15 | Planned |
 | Batch 8 | Syllabus weeks 9–11, project 4 starter, and phase 3 exam | Pending | 2026-11-15 | Planned |
 | Batch 9 | Syllabus weeks 12–15, CI/CD starter, Docker guide, and phase 4 exam | Pending | 2026-11-15 | Planned |
@@ -101,6 +101,7 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
 
 ### Batch 5: Exams, Rubrics, and First Project
 - **Date:** 2026-11-15
+- **Commit:** `07ad514`
 - **Files created:**
   - `05-exams/phase-1-exam.md`
   - `05-exams/rubrics/phase-1-rubric.md`
@@ -115,3 +116,15 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
   - Created Phase 1 3-part comprehensive exam (Part A conceptual, Part B practical, Part C defense).
   - Outlined grading rubric headings in `05-exams/rubrics/phase-1-rubric.md` with complete scoring guide in `instructor-keys/`.
   - Built Project 1 starter skeleton with failing pytest test suite for the learner to solve.
+
+### Batch 6: Weeks 4–5 and Project 2 Starter
+- **Date:** 2026-11-15
+- **Files created:**
+  - `03-syllabus/week-04/` (README, lessons, concepts, exercises, hints, quiz, gate, retro)
+  - `03-syllabus/week-05/` (README, lessons, concepts, exercises, hints, quiz, gate, retro)
+  - `06-projects/02-static-api-page/` (Vite, TypeScript, React app, components, failing tests)
+  - `instructor-keys/quiz-04.md`, `quiz-05.md` (Gitignored)
+  - `instructor-keys/project-02-solution.md` (Gitignored)
+- **Actions:**
+  - Authored full Week 4 (Web Protocols, CORS, DOM, CSS Grid/Flexbox) and Week 5 (TypeScript, React, hooks) syllabi.
+  - Built Project 2 GitHub Organization Explorer starter skeleton with strict TypeScript, components, and Vitest/React Testing Library test suite.

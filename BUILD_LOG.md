@@ -12,6 +12,7 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
 | Batch 5 | Exams, rubrics, and project 1 starter (`05-exams/`, `06-projects/01-log-analyzer-cli/`, `instructor-keys/`) | `07ad514` | 2026-11-15 | Complete |
 | Batch 6 | Syllabus weeks 4–5 and project 2 starter (`06-projects/02-static-api-page/`) | `42abf1e` | 2026-11-15 | Complete |
 | Batch 7 | Syllabus weeks 6–8, project 3 starter, and phase 2 exam | `9e443a6` | 2026-11-15 | Complete |
+| Batch 7 fix | Convert project 3 to starter skeleton, move solution to instructor-keys | `691c466` | 2026-11-15 | Complete |
 | Batch 8 | Syllabus weeks 9–11, project 4 starter, and phase 3 exam | Pending | 2026-11-15 | Planned |
 | Batch 9 | Syllabus weeks 12–15, CI/CD starter, Docker guide, and phase 4 exam | Pending | 2026-11-15 | Planned |
 | Batch 10 | Syllabus weeks 16–17, system design practice, and practice katas (`09-tests-and-practice/`) | Pending | 2026-11-15 | Planned |

@@ -2,7 +2,7 @@
 
 Set your official start date below. All subsequent week milestones are scheduled in consecutive 7-day increments (5 study days, 1 light review day, 1 rest day).
 
-- **Official Start Date:** `YYYY-MM-DD` *(Learner: edit this line before starting Week 1)*
+- **Official Start Date:** `2026-11-17` *(Learner: edit this line before starting Week 1)*
 - **Target Completion Date:** `YYYY-MM-DD` *(Start Date + 20 Weeks)*
 
 ---

@@ -1,3 +1,1 @@
-"""Task Management API package."""
-
-__version__ = "0.1.0"
+# TODO: implement this module

@@ -6,8 +6,8 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
 |---|---|---|---|---|
 | Batch 0 | Repository initialization (`README.md`, `.gitignore`, `.env.example`, `BUILD_LOG.md`) | `2f4abd7` | 2026-11-15 | Complete |
 | Batch 1 | Start-here section (`00-start-here/`, `CONTRIBUTING.md`, `LICENSE`) | `c4a5030` | 2026-11-15 | Complete |
-| Batch 2 | Roadmap and timeline (`01-roadmap/`) | Pending | 2026-11-15 | In Progress |
-| Batch 3 | Tools and setup guides (`02-tools/`) | Pending | 2026-11-15 | Planned |
+| Batch 2 | Roadmap and timeline (`01-roadmap/`) | `59c80da` | 2026-11-15 | Complete |
+| Batch 3 | Tools and setup guides (`02-tools/`) | Pending | 2026-11-15 | In Progress |
 | Batch 4 | Syllabus weeks 1–3 (`03-syllabus/week-01` to `week-03`) | Pending | 2026-11-15 | Planned |
 | Batch 5 | Exams, rubrics, and project 1 starter (`05-exams/`, `06-projects/01-log-analyzer-cli/`, `instructor-keys/`) | Pending | 2026-11-15 | Planned |
 | Batch 6 | Syllabus weeks 4–5 and project 2 starter (`06-projects/02-static-api-page/`) | Pending | 2026-11-15 | Planned |
@@ -57,6 +57,7 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
 
 ### Batch 2: Roadmap and Timeline
 - **Date:** 2026-11-15
+- **Commit:** `59c80da`
 - **Files created:**
   - `01-roadmap/phases.md`
   - `01-roadmap/milestones.md`
@@ -65,3 +66,19 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
   - Outlined the 6 engineering phases from fundamentals through capstone.
   - Established go/no-go milestone checkpoints at weeks 3, 8, 11, 15, and 20.
   - Created customizable 20-week timeline initialized with `YYYY-MM-DD` start date placeholder.
+
+### Batch 3: Tools and Setup Guides
+- **Date:** 2026-11-15
+- **Files created:**
+  - `02-tools/setup-windows.md`
+  - `02-tools/setup-macos.md`
+  - `02-tools/setup-linux.md`
+  - `02-tools/git-cheatsheet.md`
+  - `02-tools/terminal-basics.md`
+  - `02-tools/uv-and-python.md`
+  - `02-tools/docker-cheatsheet.md`
+  - `02-tools/vscode-setup.md`
+- **Actions:**
+  - Authored setup guides for Windows (WSL2 & native), macOS (Homebrew), and Linux (Debian/Ubuntu/Fedora).
+  - Covered installation and configuration of `uv`, Python 3.12, Node.js LTS, Git, Docker, and VS Code.
+  - Documented commands and mental models for Git DAGs, Unix standard streams, and container lifecycles.

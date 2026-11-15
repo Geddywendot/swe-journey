@@ -4,8 +4,8 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
 
 | Batch | Description | Commit Hash | Date | Status |
 |---|---|---|---|---|
-| Batch 0 | Repository initialization (`README.md`, `.gitignore`, `.env.example`, `BUILD_LOG.md`) | Pending | 2026-11-15 | In Progress |
-| Batch 1 | Start-here section (`00-start-here/`) | Pending | 2026-11-15 | Planned |
+| Batch 0 | Repository initialization (`README.md`, `.gitignore`, `.env.example`, `BUILD_LOG.md`) | `2f4abd7` | 2026-11-15 | Complete |
+| Batch 1 | Start-here section (`00-start-here/`, `CONTRIBUTING.md`, `LICENSE`) | Pending | 2026-11-15 | In Progress |
 | Batch 2 | Roadmap and timeline (`01-roadmap/`) | Pending | 2026-11-15 | Planned |
 | Batch 3 | Tools and setup guides (`02-tools/`) | Pending | 2026-11-15 | Planned |
 | Batch 4 | Syllabus weeks 1–3 (`03-syllabus/week-01` to `week-03`) | Pending | 2026-11-15 | Planned |
@@ -25,6 +25,7 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
 
 ### Batch 0: Repository and GitHub
 - **Date:** 2026-11-15
+- **Commit:** `2f4abd7`
 - **Files created:**
   - `README.md`
   - `.gitignore`
@@ -33,4 +34,22 @@ This document tracks the step-by-step construction of the `swe-journey` reposito
 - **Actions:**
   - Initialized git repository on branch `main`.
   - Configured git ignore for instructor keys, secrets, build artifacts, and virtual environments.
-  - Published repository to GitHub as requested.
+  - Published public repository to GitHub: `https://github.com/Geddywendot/swe-journey`.
+
+### Batch 1: Start-Here Section
+- **Date:** 2026-11-15
+- **Files created:**
+  - `00-start-here/plan-at-a-glance.md`
+  - `00-start-here/how-to-study.md`
+  - `00-start-here/stack-decision.md`
+  - `00-start-here/learning-partner.md`
+  - `00-start-here/glossary.md`
+  - `CONTRIBUTING.md`
+  - `LICENSE`
+  - `.github/PULL_REQUEST_TEMPLATE.md`
+- **Actions:**
+  - Formulated full 20-week plan at a glance.
+  - Documented daily rhythm, 30-minute struggle rule, and 3-level hint policy.
+  - Authored ADR-001 explaining rationale for Python/FastAPI/Postgres/React stack.
+  - Defined learning partner roles, meeting agendas, and evaluation criteria.
+  - Established initial living engineering glossary.

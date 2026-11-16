@@ -1,3 +1,8 @@
-# retro.md for Week 
+## Retro
 
-<!-- TODO: fill content -->
+- **What was hard?**
+  - 
+- **What can I do now?**
+  - 
+- **What will I change?**
+  - 

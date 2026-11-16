@@ -1,3 +1,3 @@
-# README.md for Week 17
+# Week 17 – System Design Practice & MERN Comparison (Express & MongoDB)
 
-<!-- TODO: fill content -->
+In this week you will spend four hours each day practising the fundamentals of system design: capacity planning, data modeling, scaling strategies, and fault‑tolerance. You will also compare the MERN stack (Express + MongoDB) with the Python‑FastAPI stack you have been building, focusing on architectural trade‑offs, deployment models, and performance characteristics. By the end of the week you should be able to sketch a high‑level design for a typical CRUD application, justify the choice of database and API framework, and explain at least three key differences between MERN and FastAPI‑Postgres approaches. **Done when** a system‑design diagram (e.g., a component diagram) is completed, a written comparison of at least 500 words exists, and a short presentation slide deck can be generated without errors.

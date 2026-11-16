@@ -1,3 +1,4 @@
-# gate.md for Week 09
-
-<!-- TODO: fill content -->
+- [ ] All required CORS headers present on responses.
+- [ ] React front‑end can fetch data without CORS errors.
+- [ ] Environment variables are correctly loaded in both apps.
+- Partner Explain‑Back: Describe how CORS works and why the `VITE_` prefix is needed.

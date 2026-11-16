@@ -1,3 +1,8 @@
-# lessons.md for Week 09
-
-<!-- TODO: fill content -->
+- **[React Docs – Data Loading](https://react.dev/reference/react)** – Learn how to use `fetch` and `axios` in React components. *Purpose*: fetch data from APIs. *Time*: 45 min
+- **[FastAPI Docs – CORS](https://fastapi.tiangolo.com/tutorial/cors/)** – Configure `fastapi.middleware.cors.CORSMiddleware` to allow requests from the React origin. *Purpose*: enable cross‑origin calls. *Time*: 30 min
+- **[MDN – CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)** – Understand the browser security model and required headers. *Purpose*: deeper CORS theory. *Time*: 20 min
+- **[React Docs – Environment Variables](https://react.dev/reference/environment-variables)** – Using `process.env` with Vite/CRA. *Purpose*: manage secrets. *Time*: 35 min
+- **[FastAPI Docs – Settings Management](https://fastapi.tiangolo.com/advanced/settings/)** – `pydantic.BaseSettings` for env config. *Purpose*: load config from env. *Time*: 40 min
+- **[React Docs – Error Boundaries](https://react.dev/reference/react/Component#componentdidcatch)** – Graceful UI error handling. *Purpose*: catch runtime errors. *Time*: 30 min
+- **[FastAPI Docs – Response Models](https://fastapi.tiangolo.com/tutorial/response-model/)** – Define Pydantic schemas for JSON output. *Purpose*: contract enforcement. *Time*: 30 min
+- **[MDN – Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)** – Basics of making HTTP requests. *Purpose*: perform GET/POST. *Time*: 25 min

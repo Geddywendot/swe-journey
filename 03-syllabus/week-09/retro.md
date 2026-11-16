@@ -1,3 +1,8 @@
-# retro.md for Week 09
+## Reflection Template
 
-<!-- TODO: fill content -->
+- **What was hard?**
+  
+- **What can I do now?**
+  
+- **What will I change?**
+  

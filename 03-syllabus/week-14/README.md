@@ -1,3 +1,3 @@
-# README.md for Week 14
+# Week 14 – GitHub Actions CI and Deployment
 
-<!-- TODO: fill content -->
+In this week you will turn the project into a continuously integrated and deployed system. You will add the CI template from `templates/github-actions/ci.yml.example`, customize it to run unit, integration and end‑to‑end tests, and configure a deployment step that pushes the Docker images to Vercel (or a similar platform). The plan assumes four hours of work each day: Day 1 adds the workflow file, Day 2 enriches the test matrix, Day 3 configures secrets and the deployment step, and Day 4 validates that a preview URL appears after every push. **Done when** the GitHub Actions pipeline runs on every commit, all tests pass, and a live preview is automatically deployed.

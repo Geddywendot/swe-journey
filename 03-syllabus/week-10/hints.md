@@ -1,11 +1,16 @@
-- **Silver Task 1 Hint – Level 1**: Use `useEffect` to start the fetch when the component mounts.
-- **Silver Task 1 Hint – Level 2**: Check `response.ok` and call `response.json()` before updating state.
-- **Silver Task 1 Hint – Level 3**: Render a spinner while `loading` is true and an error message if `error` is set.
+## Hints
 
-- **Silver Task 2 Hint – Level 1**: Create `useState` entries for each input and bind them via `value` and `onChange`.
-- **Silver Task 2 Hint – Level 2**: Validate fields on submit; if any are empty, set an error state.
-- **Silver Task 2 Hint – Level 3**: Show each error directly under its input element with appropriate ARIA attributes.
+**Silver 1**
+- *Level 1*: The form should collect `name` and `quantity` and call `fetch('/items', {method:'POST',body:JSON.stringify({name,quantity})})`.
+- *Level 2*: Use `useState` for each input and disable the submit button while any field is empty.
+- *Level 3*: After a successful POST, call `setItems(prev=>[...prev, newItem])` and show a toast with a library like `react-hot-toast`.
 
-- **Gold Task Hint – Level 1**: Define a FastAPI route with a Pydantic model for the request body.
-- **Gold Task Hint – Level 2**: In React, `fetch` with `method:"POST"`, `headers:{"Content-Type":"application/json"}`, and `body:JSON.stringify(data)`.
-- **Gold Task Hint – Level 3**: After the response, display a toast or banner indicating success or error based on the HTTP status.
+**Silver 2**
+- *Level 1*: Wrap the fetch call with a `loading` boolean state and render a spinner component when true.
+- *Level 2*: Catch fetch errors (`catch(err => setError(err.message))`) and display an alert component with the error text.
+- *Level 3*: Create an `ErrorBoundary` component that uses `componentDidCatch` (class) or the `react-error-boundary` package to render a fallback UI.
+
+**Gold**
+- *Level 1*: Optimistically push the new item into `items` state before awaiting the response.
+- *Level 2*: Define a Pydantic model `class ItemCreate(BaseModel): name: str; quantity: conint(gt=0)` in FastAPI.
+- *Level 3*: Write a pytest test using `client.post('/items', json={'name':'', 'quantity':-1})` and assert `response.status_code == 422`; ensure the front‑end displays the validation error message.

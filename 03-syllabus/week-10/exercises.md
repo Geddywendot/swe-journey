@@ -1,14 +1,16 @@
-- **Silver Task 1**: Build a React component `ItemList` that fetches data from a mock `/api/items` endpoint and renders each item in a list.
-  - [ ] Shows a loading indicator while awaiting the response.
-  - [ ] Displays an error message if the fetch fails.
-  - [ ] Renders the item `name` and `description` once data is loaded.
+## Exercises
 
-- **Silver Task 2**: Create a controlled form `ContactForm` with at least two text inputs and a select dropdown, including client‑side validation.
-  - [ ] Inputs update state on change and reflect the current value.
-  - [ ] Validation prevents submission when fields are empty or invalid, showing inline error messages.
-  - [ ] Shows a success message after a successful mock submit.
+**Silver 1**
+- [ ] Implement a React form that creates a new item via a POST request to `/items`.
+- [ ] Validate that the name field is non‑empty before sending.
+- [ ] Show a success toast when the request succeeds.
 
-- **Gold Task**: Connect the `ContactForm` to a FastAPI `POST /contact` endpoint, handling both success and error responses.
-  - [ ] FastAPI validates the request body and returns appropriate status codes.
-  - [ ] React sends JSON with the correct headers and processes the response.
-  - [ ] UI shows a distinct success or error notification based on the server reply.
+**Silver 2**
+- [ ] Add a loading spinner that appears while the list of items is being fetched from the API.
+- [ ] Simulate a failed fetch (e.g., stop the API) and display an error alert with the error message.
+- [ ] Implement an error boundary that catches a rendering error in the item list component.
+
+**Gold**
+- [ ] Enable optimistic UI: when adding a new item, update the list immediately, then roll back if the server returns an error.
+- [ ] Use a Pydantic model in FastAPI to validate the incoming item payload (e.g., name: str, quantity: int > 0).
+- [ ] Write a pytest test that posts an invalid payload and asserts a 422 response, then verify the front‑end shows the validation error.

@@ -1,3 +1,3 @@
-# README.md for Week 16
+# Week 16 – Caching, Queues, Rate Limiting
 
-<!-- TODO: fill content -->
+In this week you’ll add performance‑boosting layers to both the FastAPI backend and the React frontend. You’ll implement in‑memory and distributed caches, set up a simple queue for background jobs, and protect your endpoints with rate‑limiting rules. Over four days you’ll explore `fastapi-cache2` for response caching, Redis as a shared cache and queue broker, and `slowapi` for rate limiting. The goal is to reduce latency, smooth traffic spikes, and off‑load work to workers. **Done when** the API serves cached responses for at least one route, a background worker processes queued tasks, and rate‑limit headers appear on rapid requests, all verified by automated tests.

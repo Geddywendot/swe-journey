@@ -1,3 +1,3 @@
-# README.md for Week 13
+# Week 13 – Dockerfiles for API and Frontend, docker‑compose with Postgres
 
-<!-- TODO: fill content -->
+In this week you’ll containerize both the FastAPI backend and the React frontend, write minimal Dockerfiles, and stitch them together with a docker‑compose file that also provisions a PostgreSQL database. You’ll learn best‑practice multi‑stage builds, environment‑variable handling, and how to keep images small. Over four days you’ll spin up the full stack locally, test that the services communicate correctly, and push the images to a registry. **Done when** you can run `docker compose up` and access the React UI, which fetches data from the FastAPI API backed by a Postgres container, all without manual configuration steps.

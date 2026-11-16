@@ -1,11 +1,11 @@
 # Week 10 – Data Fetching & Forms in React
 
-**Goal**: Learn how to fetch data from APIs, manage form state, validate inputs, and submit data back to a server.
+**Goal**: Master fetching data from APIs, managing controlled form state, handling loading and error UI, and submitting data back to a server.
 
 **4‑hour‑per‑day plan**
-- Day 1: Review `fetch`/`axios`, create a data‑list component that loads remote JSON.
-- Day 2: Introduce controlled components and build a simple form (text + select).
-- Day 3: Add client‑side validation with custom hooks and show error messages.
-- Day 4: Connect the form to a POST endpoint, handle success/error UI, and review accessibility basics.
+- Day 1: Review the Fetch API and axios, build a component that loads a list of items from a mock endpoint.
+- Day 2: Implement controlled inputs and a simple form with text fields and a select dropdown.
+- Day 3: Add client‑side validation using a custom hook, show inline error messages, and test edge cases.
+- Day 4: Wire the form to a POST endpoint, handle success and failure responses, and ensure accessibility basics like labels and ARIA.
 
-**Done when**: A React page displays fetched data, a fully functional form validates input, and successfully POSTs data to a mock backend without console errors.
+**Done when**: A page displays fetched data, a fully functional form validates input, and successfully posts data to a backend without console errors.

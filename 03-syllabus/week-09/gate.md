@@ -1,4 +1,6 @@
-- [ ] All required CORS headers present on responses.
-- [ ] React front‑end can fetch data without CORS errors.
-- [ ] Environment variables are correctly loaded in both apps.
-- Partner Explain‑Back: Describe how CORS works and why the `VITE_` prefix is needed.
+- [ ] All unit tests pass with Vitest covering core logic.
+- [ ] Component tests using React Testing Library cover rendering and interaction.
+- [ ] End‑to‑end tests verify critical user flows without flaky failures.
+- Partner Explain‑Back: Describe the testing pyramid and why unit tests are most numerous, component tests fewer, and e2e tests fewest.
+
+(Each item should be verified by a peer before marking as passed.)

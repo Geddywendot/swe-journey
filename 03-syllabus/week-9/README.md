@@ -1,3 +1,0 @@
-# Week 9 – React ↔ FastAPI
-
-In this week you’ll connect a React front‑end to a FastAPI back‑end, configure CORS, and manage environment variables. You’ll spend about four hours each day building a small full‑stack app, debugging network requests, and testing configuration changes. **Done when** you can fetch data from the FastAPI endpoint in React without CORS errors and all environment values are loaded correctly in both sides.

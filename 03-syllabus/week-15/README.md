@@ -1,3 +1,0 @@
-# Week 15 – Structured Logging, Health Checks, Basic Monitoring
-
-This week you will add observability to the service stack. You will integrate structured logging into FastAPI, expose a health‑check endpoint, and publish simple Prometheus metrics that can be scraped by a monitoring system. The plan assumes four hours per day: Day 1 adds a JSON‑based logging configuration, Day 2 implements a lightweight `/health` route, Day 3 wires the `prometheus_client` library and creates a `/metrics` endpoint, and Day 4 validates the logs in a local ELK‑like viewer and confirms the metrics are reachable. **Done when** the backend produces JSON logs, the health endpoint returns `200 OK`, and the `/metrics` endpoint shows a `process_cpu_seconds_total` metric without any test failures.
